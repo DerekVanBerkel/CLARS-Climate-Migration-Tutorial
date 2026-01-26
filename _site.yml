@@ -1,0 +1,45 @@
+name: "Climate Migration Training"
+output_dir: "docs"
+
+navbar:
+  title: "Climate Migration Training"
+  left:
+    - text: "Home"
+      href: index.html
+
+    - text: "Schedule"
+      menu:
+        - text: "Online Training (Feb 3, 2026)"
+          href: training-schedule.html
+        - text: "In-Person Day 1"
+          href: day1.html
+        - text: "In-Person Day 2"
+          href: day2.html
+
+    - text: "Background"
+      href: background.html
+
+    - text: "Literature"
+      href: literature.html
+
+    - text: "City Data"
+      menu:
+        - text: "Kampala"
+          href: kampala.html
+        - text: "Eldoret"
+          href: eldoret.html
+        - text: "Mwanza"
+          href: mwanza.html
+
+  right:
+    - text: "PIVOT"
+      href: https://www.pivot-model.com/
+
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    css: styles.css
+    code_folding: hide
