@@ -37,10 +37,11 @@ navbar:
 
 output:
   html_document:
+    html_document:
     theme: flatly
     toc: true
     toc_depth: 3
     toc_float: true
     css: styles.css
     code_folding: hide
-
+    df_print: paged
