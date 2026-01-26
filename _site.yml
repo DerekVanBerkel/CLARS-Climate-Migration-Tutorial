@@ -10,7 +10,7 @@ navbar:
     - text: "Schedule"
       menu:
         - text: "Online Training (Feb 3, 2026)"
-          href: training-schedule.html
+          href: Training-Schedule.html
         - text: "In-Person Day 1"
           href: day1.html
         - text: "In-Person Day 2"
