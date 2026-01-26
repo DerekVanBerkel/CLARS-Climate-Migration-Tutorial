@@ -1,0 +1,159 @@
+/* Pan‑African inspired theme overrides for R Markdown site */
+
+:root{
+  --pan-red:   #c52233;  /* warm red */
+  --pan-gold:  #f2b705;  /* gold/yellow */
+  --pan-green: #1b5e20;  /* deep green */
+  --pan-black: #111111;  /* near black */
+  --pan-ink:   #0a0a0a;  /* text */
+  --pan-bg:    #fffdf7;  /* soft off-white */
+  --pan-muted: #faf3d3;  /* light gold tint */
+  --pan-link:  #146c43;  /* link green */
+  --pan-link-focus: #0b3d22;
+}
+
+/* Base */
+html, body{
+  background: var(--pan-bg);
+  color: var(--pan-ink);
+}
+h1, h2, h3, h4{
+  letter-spacing: .2px;
+  color: var(--pan-black);
+}
+h1{
+  border-bottom: 3px solid var(--pan-gold);
+  padding-bottom: .35rem;
+}
+
+/* Navbar (R Markdown + Bootstrap 3) */
+.navbar{
+  border: none !important;
+}
+.navbar-default{
+  background: linear-gradient(90deg, var(--pan-green), var(--pan-black));
+  box-shadow: 0 2px 12px rgba(0,0,0,.15);
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+  color: #ffffff !important;
+  font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover{
+  color: var(--pan-gold) !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background: #fff;
+}
+
+/* Links */
+a, a:visited{
+  color: var(--pan-link);
+}
+a:hover, a:focus{
+  color: var(--pan-link-focus);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Buttons */
+.btn-primary{
+  background: var(--pan-green);
+  border-color: var(--pan-green);
+}
+.btn-primary:hover, .btn-primary:focus{
+  background: #104116;
+  border-color: #104116;
+}
+.btn-default{
+  border-color: var(--pan-gold);
+}
+.btn-default:hover{
+  background: var(--pan-muted);
+}
+
+/* Blockquotes & callouts */
+blockquote{
+  border-left: 6px solid var(--pan-gold);
+  background: var(--pan-muted);
+  color: #333;
+  padding: .8rem 1rem;
+}
+
+/* Code & pre */
+code{
+  background: #fff8e6;
+  padding: 2px 5px;
+  border-radius: 4px;
+  border: 1px solid #f4d78a;
+}
+pre code{
+  display: block;
+  padding: .8rem;
+  border-radius: 6px;
+}
+
+/* Tables */
+table.table, table{
+  border-collapse: collapse;
+  width: 100%;
+}
+table.table th{
+  background: linear-gradient(90deg, var(--pan-gold), #ffd24d);
+  color: #111;
+}
+table.table th, table.table td,
+table th, table td{
+  border: 1px solid #f0e2a6;
+  padding: .5rem .6rem;
+}
+table.table tbody tr:nth-child(odd){
+  background: #fffaf0;
+}
+
+/* Leaflet map container */
+.leaflet-container{
+  min-height: 440px;
+  border: 2px solid var(--pan-green);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.08);
+}
+
+/* TOC (floating table of contents) */
+.tocify, .toc-content .tocify{
+  background: #fffef8;
+  border: 1px solid #f4d78a;
+  border-radius: 8px;
+}
+.tocify .toc-title{
+  font-weight: 700;
+  color: var(--pan-green);
+}
+
+/* HR and small accents */
+hr{
+  border: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pan-red), var(--pan-gold), var(--pan-green));
+  margin: 1.2rem 0;
+}
+
+/* Small “badge” labels that can be added via <span class="label"> */
+.label{
+  background: var(--pan-red);
+}
+.label.label-success{ background: var(--pan-green); }
+.label.label-warning{ background: var(--pan-gold); color: #111; }
+
+/* Cards (use <div class="panel panel-default"> in Rmd) */
+.panel-default>.panel-heading{
+  background: linear-gradient(90deg, #ffe082, var(--pan-gold));
+  border-bottom: 1px solid #f0d37b;
+  font-weight: 600;
+}
+.panel{
+  border-radius: 10px;
+  overflow: hidden;
+  border-color: #f0d37b;
+}

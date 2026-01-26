@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Background: Climate Migration in the Great Lakes &amp; Lake Victoria</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Climate Migration Training</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Schedule
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="training-schedule.html">Online Training (Feb 3, 2026)</a>
+    </li>
+    <li>
+      <a href="day1.html">In-Person Day 1</a>
+    </li>
+    <li>
+      <a href="day2.html">In-Person Day 2</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="background.html">Background</a>
+</li>
+<li>
+  <a href="literature.html">Literature</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    City Data
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="kampala.html">Kampala</a>
+    </li>
+    <li>
+      <a href="eldoret.html">Eldoret</a>
+    </li>
+    <li>
+      <a href="mwanza.html">Mwanza</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.pivot-model.com/">PIVOT</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Background: Climate Migration in the Great
+Lakes &amp; Lake Victoria</h1>
+
+</div>
+
+
+<div
+id="clars-understanding-and-adapting-to-climate-migration-in-the-great-lakes-and-lake-victoria-regions"
+class="section level2">
+<h2>🌍 CLARS: Understanding and Adapting to Climate Migration in the
+Great Lakes and Lake Victoria Regions</h2>
+<blockquote>
+<p><strong>CLARS (Climate Adaptation and Resilience Strategies)</strong>
+is an international research project (2024-2027) focused on developing
+co-produced strategies to reduce socio-economic vulnerabilities for
+climate migrants and host communities in the Lake Victoria Basin and
+Great Lakes Region, aiming to build resilience through interdisciplinary
+research, knowledge exchange, and collaboration between academia,
+government, and communities. Led by institutions like McMaster
+University, University of Michigan, and the Potsdam Institute for
+Climate Impact Research, it uses “living labs” in cities like Kampala
+and Michigan to create inclusive, place-based solutions for
+climate-induced migration challenges</p>
+</blockquote>
+<p>More information <a href="https://www.clarsproject.com/">here</a></p>
+<hr />
+<div id="why-climate-migration-matters" class="section level3">
+<h3>🌦️ Why Climate Migration Matters</h3>
+<p>Climate change is reshaping where people live and work.<br />
+Global estimates suggest that by <strong>2050</strong>, between
+<strong>200 and 216 million people</strong> may relocate within their
+countries due to environmental changes such as droughts, sea-level rise,
+and reduced agricultural productivity.<br />
+By <strong>2100</strong>, that number could climb to <strong>2
+billion</strong>.</p>
+<p>Sudden climate shocks—floods, storms, and wildfires—are also
+displacing people. In <strong>2022</strong>, there were over <strong>32
+million</strong> disaster-related displacements, mostly due to
+weather-related hazards.</p>
+<p>While much research focuses on <strong>why</strong> people move,
+CLARS also examines <strong>what happens next</strong>—exploring the
+social, environmental, and planning challenges in <strong>receiving
+communities</strong>.</p>
+<hr />
+</div>
+<div id="what-makes-clars-different" class="section level3">
+<h3>🌐 What Makes CLARS Different</h3>
+<p>CLARS focuses on the <strong>destinations</strong> of climate
+migration, not just its origins. It treats migration as a
+<strong>dynamic process</strong> and studies how local planning can
+support both newcomers and existing residents under stress.</p>
+<p>By comparing two major freshwater regions—the <strong>Lake Victoria
+Basin (LVB)</strong> in East Africa and the <strong>Great Lakes Region
+(GLR)</strong> in North America—CLARS facilitates <strong>cross-regional
+learning</strong> between Global South and Global North cities.</p>
+<hr />
+</div>
+<div id="clars-goals" class="section level3">
+<h3>🎯 CLARS Goals</h3>
+<p>CLARS focuses on five urban sites:<br />
+<strong>Kampala (Uganda)</strong>, <strong>Mwanza (Tanzania)</strong>,
+<strong>Eldoret (Kenya)</strong> and surrounding areas (e.g., Kisii),
+and <strong>Detroit (USA)</strong>.</p>
+<hr />
+</div>
+<div id="key-research-questions" class="section level3">
+<h3>🔍 Key Research Questions</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Participation:</strong> How can PPGIS (Public Participation
+GIS) broaden who participates in migration planning and ensure diverse
+voices are included?<br />
+</li>
+<li><strong>Co-production:</strong> Can co-produced tools like
+<strong>PIVOT</strong> help develop better solutions for managing
+climate migration impacts for both migrants and vulnerable
+residents?<br />
+</li>
+<li><strong>Capacity:</strong> Can shared knowledge increase capacity to
+assess climate in-migration impacts on:
+<ul>
+<li><strong>Environment</strong> (e.g., land use, green
+infrastructure)<br />
+</li>
+<li><strong>Justice</strong> (e.g., who benefits or bears the
+burden)<br />
+</li>
+<li><strong>Livelihoods</strong> (e.g., jobs, services, social
+networks)<br />
+</li>
+</ul></li>
+<li><strong>Scaling:</strong> What factors support the scaling and
+uptake of co-produced tools across regions?</li>
+</ol>
+<hr />
+</div>
+<div id="how-clars-works" class="section level3">
+<h3>🧭 How CLARS Works</h3>
+<p>CLARS uses a <strong>mixed-methods approach</strong> combining
+climate modeling, social science, and participatory engagement.<br />
+The project is organized into <strong>three research strands</strong>
+and <strong>nine work packages (WPs):</strong></p>
+<div class="float">
+<img src="images/CLARS%20concept.png"
+alt="Figure: The CLARS research approach." />
+<div class="figcaption">Figure: The CLARS research approach.</div>
+</div>
+<hr />
+</div>
+<div id="why-compare-great-lakes-lake-victoria-regions"
+class="section level3">
+<h3>🌍 Why Compare Great Lakes &amp; Lake Victoria Regions?</h3>
+<p>Both regions face <strong>climate stress, urbanization, and
+inequality</strong>:</p>
+<ul>
+<li>In the <strong>Lake Victoria Basin</strong>, migration driven by
+flooding, rainfall shifts, and farming change is already transforming
+cities.<br />
+</li>
+<li>In the <strong>Great Lakes Region</strong>, climate-induced
+migration is expected to grow as people seek <strong>freshwater, safety,
+and climate stability</strong>.</li>
+</ul>
+<p>The <strong>LVB offers experience</strong> with climate-related
+mobility.<br />
+The <strong>GLR offers innovations</strong> in planning and
+governance.</p>
+<p>Together, they can co-develop insights for <strong>equitable and
+sustainable adaptation</strong>.</p>
+<hr />
+</div>
+<div id="what-clars-will-deliver" class="section level3">
+<h3>📈 What CLARS Will Deliver</h3>
+<ul>
+<li>🧩 <strong>Policy insights</strong> on how to meet the needs of
+migrants and hosts<br />
+</li>
+<li>🛰️ <strong>Open data and migration scenarios</strong> to guide
+planning<br />
+</li>
+<li>🧑🏾‍🤝‍🧑🏽 <strong>Locally co-designed adaptation strategies</strong><br />
+</li>
+<li>🔄 <strong>Learning exchanges</strong> between researchers,
+planners, and communities</li>
+</ul>
+<hr />
+</div>
+<div id="from-risk-to-resilience" class="section level3">
+<h3>🌱 From Risk to Resilience</h3>
+<p>Climate migration is not just about risk—it’s about <strong>building
+better futures</strong>.<br />
+CLARS connects people and ideas across continents to help cities
+<strong>plan for resilience</strong>, ensuring migrants and host
+communities can <strong>thrive together</strong>.</p>
+<hr />
+<blockquote>
+<p>📘 For related materials and tutorials, see the <a
+href="background.html">Background</a>, <a
+href="training-schedule.html">Schedule</a>, or explore <a
+href="kampala.html">City Data</a>, <a href="mwanza.html">Mwanza</a>, and
+<a href="eldoret.html">Eldoret</a>.</p>
+</blockquote>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
