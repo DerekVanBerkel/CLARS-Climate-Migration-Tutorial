@@ -33,7 +33,7 @@ navbar:
 
   right:
     - text: "PIVOT"
-      href: https://www.pivot-model.com/
+      href:  https://derek-van-berkel-shiny.shinyapps.io/PivotAfrica/
 
 output:
   html_document:
