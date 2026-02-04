@@ -16,6 +16,9 @@ navbar:
         - text: "In-Person Day 2"
           href: day2.html
 
+    - text: "Workshop Locations"
+      href: workshop_locations.html
+
     - text: "Background"
       href: background.html
 
@@ -33,11 +36,10 @@ navbar:
 
   right:
     - text: "PIVOT"
-      href:  https://derek-van-berkel-shiny.shinyapps.io/PivotAfrica/
+      href: https://derek-van-berkel-shiny.shinyapps.io/PivotAfrica-basic/
 
 output:
   html_document:
-    html_document:
     theme: flatly
     toc: true
     toc_depth: 3
